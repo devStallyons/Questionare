@@ -239,10 +239,10 @@ app.get("/api/random-question", async (req, res) => {
 // });
 
 app.post('/api/submit-answers', async (req, res) => {
-  if (!body.answers) {
-    res.status(400).send(`Required fields missing`);
-    return;
-  }
+  // if (!body.answers) {
+  //   res.status(400).send(`Required fields missing`);
+  //   return;
+  // }
   const answers = req.body.answers;
   let correctAnswers = 0;
 
