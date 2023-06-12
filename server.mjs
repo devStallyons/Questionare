@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://localhost:3000', "*"],
+    origin: ['https://questionare-admin.web.app', 'https://questionare-quest.web.app', "*"],
     credentials: true
 }));
 
