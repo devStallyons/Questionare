@@ -20,12 +20,12 @@ app.use(cookieParser());
 
 
 app.use(cors({
-    origin: ['https://questionare-admin.web.app', 'https://questionare-quest.web.app'],
+    origin: ['https://questionare-admin.web.app', 'https://questionare-quest.web.app' , '*'],
     credentials: true
 }));
 
 
-// app.use('/api/v1', AuthApis)
+
 
 
 
